@@ -4,20 +4,21 @@
 [extra]
 
 # Show a concise description of what you do below your avatar.
-title = "Concise description"
+title = "Yang Xu, Ph.D."
 
 # The list of interests displayed
 interests = [
-  "Rainbow pony",
-  "Martian food",
-  "Quantic science"
+  "Computational linguistics | 计算语言学",
+  "AI/machine learning | 人工智能",
+  "Cognitive sciences | 认知科学",
+  "Culture, philosophy, anthropology, digital humanity | 数字人文"
 ]
 
 # The list of your degrees / education
 [[extra.education.courses]]
-  course = "Latest degree"
-  institution = "Some acamedy"
-  year = 2020
+  course = "Ph.D."
+  institution = "The Pennsylvania State University"
+  year = 2018
 
 [[extra.education.courses]]
   course = "Another degree"
@@ -27,11 +28,8 @@ interests = [
 # Finally, a list of icons with a link displayed below your avatar
 [[extra.avatar_icons]]
   icon = "github"
-  link = "https://github.com/adfaure"
+  link = "https://github.com/innerfirexy"
 [[extra.avatar_icons]]
-  icon = "gitlab"
-  link = "https://gitlab.com/adfaure"
-[[extra.avatar_icons]]
-  icon = "linkedin"
-  link = "https://www.linkedin.com/in/adrien-faure-9958978b/"
+  icon = "goodreads"
+  link = "https://scholar.google.com/citations?user=DnivueEAAAAJ&hl=en"
 +++

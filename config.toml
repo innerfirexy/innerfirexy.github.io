@@ -18,12 +18,13 @@ highlight_code = true
 
 [extra]
 # Image of your avatar displayed on the landing page
-avatar = "static/img/xu.jpg"
+# avatar = "static/img/CLCS_logo.png"
+avatar = "static/img/Xu_profile.jpeg"
 # Image of the favicon
-favicon = "static/img/xu.jpg"
+favicon = "static/img/育-27_80B2.jpg"
 
 # Your email address showed in the contact section
-email = "kodama[at]domain.com"
+email = "yang.xu[at]sdsu[dot]edu"
 
 # If you don't want to show your contact information in the index
 contact_in_index = true
