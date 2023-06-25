@@ -19,12 +19,13 @@ highlight_code = true
 [extra]
 # Image of your avatar displayed on the landing page
 # avatar = "static/img/CLCS_logo.png"
-avatar = "static/img/Xu_profile.jpeg"
+# avatar = "static/img/Xu_profile.jpeg"
+avatar = "static/img/Xu_SUSTech.jpeg"
 # Image of the favicon
 favicon = "static/img/育-27_80B2.jpg"
 
 # Your email address showed in the contact section
-email = "yang.xu[at]sdsu[dot]edu"
+email = "xuyang[at]sustech[dot]edu[dot]cn"
 
 # If you don't want to show your contact information in the index
 contact_in_index = true
@@ -35,3 +36,10 @@ menu_items = [
   #{ path = "#contacts", name = "联系" },
   { path = "#", name = "主页 | Home"}
 ]
+
+[languages.en.translations]
+Biography = "Bio"
+Interests = "Interests"
+Education = "Education"
+Published = "Publication"
+Abstract = "CV"
