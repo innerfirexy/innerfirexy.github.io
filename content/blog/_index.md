@@ -1,5 +1,5 @@
 +++
-title = "研究记录 | Log"
+title = "记录 | Research Log"
 sort_by = "date"
 #template = "blog.html"
 page_template = "blog-page.html"

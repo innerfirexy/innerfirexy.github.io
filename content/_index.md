@@ -2,9 +2,8 @@
 # Insert zola front matter variable such as date etc
 
 [extra]
-
 # Show a concise description of what you do below your avatar.
-title = "Yang Xu, Ph.D."
+title = "PI: Yang Xu, Ph.D."
 
 # The list of interests displayed
 interests = [
@@ -15,10 +14,10 @@ interests = [
 ]
 
 # The list of your degrees / education
-[[extra.education.courses]]
-  course = "Ph.D."
-  institution = "The Pennsylvania State University"
-  year = 2018
+# [[extra.education.courses]]
+#  course = "Ph.D."
+#  institution = "The Pennsylvania State University"
+#  year = 2018
 
 [[extra.education.courses]]
   course = "Another degree"
@@ -33,3 +32,7 @@ interests = [
   icon = "goodreads"
   link = "https://scholar.google.com/citations?user=DnivueEAAAAJ&hl=en"
 +++
+
+Welcome with the kodama theme, inspired from hugo academic theme.
+
+This theme is build with tailwindcss, and uses no JavaScript. It is meant to be simple, yet pretty.

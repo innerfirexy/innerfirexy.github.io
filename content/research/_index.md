@@ -1,5 +1,5 @@
 +++
-title = "发表物 | Publications"
+title = "发表 | Publications"
 sort_by = "date"
 
 # Here the two dedicated templates

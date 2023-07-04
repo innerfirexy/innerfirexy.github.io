@@ -18,8 +18,6 @@ highlight_code = true
 
 [extra]
 # Image of your avatar displayed on the landing page
-# avatar = "static/img/CLCS_logo.png"
-# avatar = "static/img/Xu_profile.jpeg"
 avatar = "static/img/Xu_SUSTech.jpeg"
 # Image of the favicon
 favicon = "static/img/育-27_80B2.jpg"
@@ -33,13 +31,24 @@ contact_in_index = true
 # Additional menu items
 # `Name` is what it is displayed, `path` is the url
 menu_items = [
-  #{ path = "#contacts", name = "联系" },
+  { path = "#contacts", name = "联系 | Contacts" },
   { path = "#", name = "主页 | Home"}
 ]
 
-[languages.en.translations]
-Biography = "Bio"
+[translations]
+Biography = "计算语言学与意識科学实验室"
 Interests = "Interests"
 Education = "Education"
-Published = "Publication"
-Abstract = "CV"
+toc = "Table of Contents"
+Published = "Published"
+Abstract = "Abstract"
+volume = "volume"
+number = "number"
+pages = "pages"
+
+# [languages.en.translations]
+# Biography = "Bio"
+# Interests = "Interests"
+# Education = "Education"
+# Published = "Publication"
+# Abstract = "CV"
