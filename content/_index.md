@@ -7,10 +7,11 @@ title = "PI: Yang Xu, Ph.D."
 
 # The list of interests displayed
 interests = [
-  "Computational linguistics | 计算语言学",
-  "AI/machine learning | 人工智能",
-  "Cognitive sciences | 认知科学",
-  "Culture, philosophy, anthropology, digital humanity | 数字人文"
+  "计算语言学 | Computational linguistics",
+  "人工智能 | Artificial intelligence",
+  "意識科学 | Consciousness science",
+  "认知科学 | Cognitive sciences",
+  "文化 哲学 人类学 数字人文 | Culture, philosophy, anthropology, digital humanity"
 ]
 
 # The list of your degrees / education
@@ -34,5 +35,4 @@ interests = [
 +++
 
 Welcome with the kodama theme, inspired from hugo academic theme.
-
 This theme is build with tailwindcss, and uses no JavaScript. It is meant to be simple, yet pretty.
