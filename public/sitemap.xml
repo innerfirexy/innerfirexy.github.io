@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>example.com/</loc>
+    </url>
+    <url>
+        <loc>example.com/blog/</loc>
+    </url>
+    <url>
+        <loc>example.com/blog/dev-zsh/</loc>
+        <lastmod>2022-10-07</lastmod>
+    </url>
+    <url>
+        <loc>example.com/blog/ssh-login/</loc>
+        <lastmod>2022-10-07</lastmod>
+    </url>
+    <url>
+        <loc>example.com/contacts/</loc>
+        <lastmod>2020-07-09</lastmod>
+    </url>
+    <url>
+        <loc>example.com/research/</loc>
+    </url>
+</urlset>

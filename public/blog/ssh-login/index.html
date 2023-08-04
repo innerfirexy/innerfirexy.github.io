@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <link rel="shortcut icon" href="example.com&#x2F;processed_images&#x2F;育-27_80B2.ea542c022d65877b.png" type="image/png">
+  <link rel="icon" href="example.com&#x2F;processed_images&#x2F;育-27_80B2.ea542c022d65877b.png" type="image/png">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta charset="utf-8">
+
+  <!-- Custom header for users, includes custom css or js here -->
+  <title> CLCS</title>
+
+  
+<!-- CSS -->
+<link rel="stylesheet" href="example.com/styles/styles.css" />
+
+    <title>记录 | Research Log |  CLCS</title>
+</head>
+
+<body class="bg-white">
+  <!-- Top nav bar -->
+  
+<nav id="header" class="w-full z-10 top-0 shadow-md mx-0">
+  <div id="progress" class="top-0"></div>
+  <!-- <div class="w-full max-w-5xl mx-auto flex flex-wrap items-center justify-between mt-0 py-2  sm:bg-green-900 md:bg-red-900 lg:bg-blue-900 bg-yellow-900"> -->
+  <div class="w-full max-w-4xl mx-auto flex sm:flex-nowrap flex-wrap items-center justify-between mt-0 py-2">
+    <div class="pl-4">
+      <a class="text-gray-900 text-base no-underline hover:no-underline font-extrabold" href="example.com/">
+        CLCS
+      </a>
+    </div>
+
+    <div class="w-full flex-grow sm:flex sm:items-center flex-wrap sm:flex-nowrap sm:w-auto mt-2 sm:mt-0 bg-transparent z-20" id="nav-content">
+      <ul class="list-reset flex flex-wrap sm:justify-end flex-1 items-center">
+          <li class="mr-3 text-sm">
+              <a href="example.com/blog" class="inline-block py-2 px-4 text-sky-600 font-bold no-underline">
+                记录 | Research Log
+              </a>
+            </li>
+            <li class="mr-3 text-sm">
+              <a href="example.com/research" class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4">
+                发表 | Publications
+              </a>
+            </li>
+            <li class="mr-3 text-sm">
+            <a href=example.com/#contacts class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4">
+              联系 | Contacts
+            </a>
+          </li>
+          <li class="mr-3 text-sm">
+            <a href=example.com/# class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4">
+              主页 | Home
+            </a>
+          </li>
+          </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Container -->
+  
+<div class="container max-w-3xl mx-auto px-4">
+  <div class="pt-8 flex">
+    <h1 class="grow font-bold font-sans break-normal text-gray-900 text-3xl">使用ssh钥匙远程登录Linux服务器</h1>
+    <p class="text-sm md:text-base font-normal text-gray-600 py-2">Published 2022-10-07</p>
+  </div>
+  <hr class="border-b-1 border-gray-400 mb-8">
+  <article class="prose prose-indigo max-w-3xl">
+    
+    <h2 id="di-1bu-sheng-cheng-sshgong-yao-he-si-yao">第1步：生成ssh公钥和私钥</h2>
+<p>在本地电脑（MacOS 或者 Linux）的命令行中使用：</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>$ ssh-keygen
+</span></code></pre>
+<p>这样就生成了一对私钥和公钥，其默认存储位置为<code>~/.ssh</code>。该目录下的<code>id_rsa</code>为私钥，<code>id_rsa.pub</code>为公钥。此公钥就是用来远程登录的“钥匙”。</p>
+<h2 id="di-2bu-jiang-gong-yao-kao-bei-dao-yuan-cheng-fu-wu-qi">第2步：将公钥拷贝到远程服务器</h2>
+<p>参考此教程 <a href="https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server">Digital Ocean: How To Configure SSH Key-Based Authentication on a Linux Server</a>。几种方法均可行：</p>
+<ol>
+<li>自动拷贝：<code>$ ssh-copy-id username@server_address</code> 将直接把你的 id_rsa.pub 文件内容拷贝到服务器的 ~/.ssh/authorized_keys 文件中。</li>
+<li>半自动拷贝：<code>cat ~/.ssh/id_rsa.pub | ssh username@server_address &quot;mkdir -p ~/.ssh &amp;&amp; cat &gt;&gt; ~/.ssh/authorized_keys&quot;</code></li>
+<li>手动拷贝：在本地打开 id_rsa.pub 拷贝其内容，用 ssh 远程登录后用文本编辑器新建或者编辑 ~/.ssh/auhtorized_keys，将拷贝内容添加进去。</li>
+</ol>
+<h2 id="di-3bu-deng-lu">第3步：登录</h2>
+<p>此时在本地打开命令行，远程登录服务器：</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>ssh username@server_address
+</span></code></pre>
+<p>你会发现不需要输入密码就能直接登录啦！</p>
+
+    </article>
+</div>
+<!-- <div class="sticky bottom-0 px-3">
+    <a href="#page-top">Back to top of page</a>
+  </div> -->
+  <footer class="bg-white">
+    <div class="bg-white text-gray-400 container max-w-4xl mx-auto my-8 px-4">
+    © CLCS. Template <a class="underline" target="_blank" href="https://github.com/adfaure/kodama-theme">Kodama</a> made with <a class="underline" target="_blank" href="https://getzola.org">zola</a>, inspired by <a class="underline" target="_blank" href="https://wowchemy.com/"> wowchemy</a> academic theme.
+    </div>
+  </footer>
+  </body>
+
+</html>
