@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "innerfirexy.github.io"
 
-title = "CLCS Research Blog"
+title = "CLCS实验室研究札记 | CLCS Research Blog"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -17,7 +17,7 @@ highlight_code = true
 highlight_theme = "ayu-dark"
 
 [extra]
-toc = true
+toc = false # generate table of content (toc) for each post automatically or not
 use_cdn = false
 favicon = "/icon/favicon.png"
 theme = "light" # light, dark, auto, toggle
@@ -25,7 +25,7 @@ mathjax = true
 mathjax_dollar_inline_enable = true
 
 menu = [
-    { name = "记录|posts", url = "/posts", weight = 1 },
+    { name = "札记|posts", url = "/posts", weight = 1 },
     #{ name = "/projects", url = "/projects", weight = 2 },
     { name = "关于|about", url = "/about", weight = 1 },
 ]

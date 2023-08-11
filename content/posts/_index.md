@@ -1,6 +1,6 @@
 +++
 paginate_by = 7
 path = "posts"
-title = "记录 | Posts"
+title = "札记 | Posts"
 sort_by = "date"
 +++
