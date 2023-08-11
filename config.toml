@@ -19,7 +19,7 @@ highlight_theme = "ayu-dark"
 [extra]
 toc = false # generate table of content (toc) for each post automatically or not
 use_cdn = false
-favicon = "/icon/favicon.png"
+# favicon = "/icon/favicon.png"
 theme = "light" # light, dark, auto, toggle
 mathjax = true
 mathjax_dollar_inline_enable = true
